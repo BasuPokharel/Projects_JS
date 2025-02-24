@@ -1,0 +1,57 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+/* Body Styling */
+body {
+  background-color: #0a192f; /* Dark navy blue */
+  color: #f4f4f4; /* Light gray for text */
+}
+
+/* Heading Styling */
+h1 {
+  text-align: center;
+  padding: 20px;
+  font-size: 2.5rem;
+  color: #e43f5a; /* Bright red for headings */
+}
+
+/* Marquee Styling */
+marquee {
+  font-size: 1.5rem;
+  color: #50e3c2; /* Teal for marquee text */
+  margin: 10px 0;
+}
+
+/* Links Container Styling */
+.links_of_projects {
+  width: 90%;
+  max-width: 500px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #1f4068; /* Darker blue */
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+  text-align: center;
+}
+
+/* Link Styling */
+a {
+  color: #f4f4f4; /* Light gray for text */
+  text-decoration: none;
+  padding: 10px 20px;
+  margin: 10px;
+  display: inline-block;
+  border: 2px solid #e43f5a; /* Bright red border */
+  border-radius: 10px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+a:hover {
+  background-color: #e43f5a; /* Bright red background on hover */
+  transform: scale(1.05); /* Slightly enlarge on hover */
+}

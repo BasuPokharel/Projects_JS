@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+/* Body Styling */
+body {
+  background-color: #0a192f; /* Dark navy blue */
+  color: #f4f4f4; /* Light gray for text */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+/* Container Styling */
+.container {
+  background-color: #1f4068; /* Darker blue */
+  width: 100%;
+  max-width: 500px;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+/* Heading Styling */
+h2 {
+  font-size: 1.8rem;
+  color: #e43f5a; /* Bright red for headings */
+  margin-bottom: 10px;
+}
+
+/* Text Paragraph Styling */
+#text {
+  font-size: 1.2rem;
+  color: #f4f4f4; /* Light gray */
+  line-height: 1.6;
+}
+
+/* Textarea Box Styling */
+.textarea_box {
+  width: 100%;
+}
+
+textarea {
+  width: 100%;
+  height: 150px;
+  padding: 10px;
+  font-size: 1rem;
+  border: 2px solid #e43f5a; /* Bright red border */
+  border-radius: 10px;
+  background-color: #0a192f; /* Dark navy blue */
+  color: #f4f4f4; /* Light gray text */
+  resize: none;
+  outline: none;
+}
+
+textarea:focus {
+  border-color: #ff6f61; /* Coral on focus */
+}
+
+/* Result Paragraph Styling */
+#result {
+  font-size: 1.1rem;
+  color: #f4f4f4; /* Light gray */
+}
+
+/* Button Styling */
+#Start {
+  padding: 10px 20px;
+  background-color: #e43f5a; /* Bright red */
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+#Start:hover {
+  background-color: #ff6f61; /* Coral on hover */
+  transform: scale(1.05); /* Slightly enlarge on hover */
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+  .container {
+    padding: 15px;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+
+  #text {
+    font-size: 1rem;
+  }
+
+  textarea {
+    height: 120px;
+  }
+
+  #result {
+    font-size: 1rem;
+  }
+
+  #Start {
+    padding: 8px 16px;
+    font-size: 0.9rem;
+  }
+}

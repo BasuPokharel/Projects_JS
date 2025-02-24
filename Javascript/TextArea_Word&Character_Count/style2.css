@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+html,
+body {
+  font-family: "Poppins", sans-serif; /* Consistent font family */
+  height: 100%;
+  margin: 0;
+  position: relative;
+  background: #0a192f; /* Dark navy blue */
+  color: #f4f4f4; /* Light gray text */
+}
+
+.container {
+  width: 400px;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+button {
+  width: 200px;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #e43f5a; /* Bright red */
+  color: #f4f4f4; /* Light gray text */
+  font-size: 13px;
+  transition: all 0.4s;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #ff6f61; /* Coral on hover */
+}
+
+textarea {
+  outline: none;
+  padding: 1rem;
+  background-color: #1f4068; /* Darker blue */
+  color: #f4f4f4; /* Light gray text */
+  resize: none;
+  width: 100%;
+  height: 200px;
+  border: 2px solid #e43f5a; /* Bright red border */
+  border-radius: 5px;
+  transition: all 0.2s;
+}
+
+textarea:hover {
+  background-color: #233a5a; /* Slightly lighter blue on hover */
+  border-color: #ff6f61; /* Coral border on hover */
+}
+
+.below-text {
+  background-color: #1f4068; /* Darker blue */
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 10px;
+  border-radius: 5px;
+  gap: 5px;
+  color: #f4f4f4; /* Light gray text */
+}
+
+@media (max-width: 450px) {
+  .container {
+    width: 90%;
+  }
+}
+
+marquee {
+  font-size: 30px;
+  color: #50e3c2; /* Teal for marquee text */
+  font-weight: 500;
+  margin: 20px 0px;
+}
